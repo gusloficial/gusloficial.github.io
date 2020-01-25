@@ -1,3 +1,10 @@
-_site/
+*.old
+*.swp
+.git
+.bundle
+*.lock
+_site
 .sass-cache/
-.jekyll-metadata
+.jekyll-cache/
+.jekyll-metadata/
+vendor
