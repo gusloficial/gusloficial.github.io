@@ -1,6 +1,18 @@
-name: Gusl
-author: lordvalor
-description: GUSL Oficial
-athor_email: vlozada@sgusl.org.ve
-url: https://gusl.org/
-
+name: Grupo de Usuario de Software Libre
+author: "GUSL.org"
+description: Grupo de usuaripo de Software Libre.
+author_email: vlozada@sgusl.org.ve
+url: gusloficial.github.com
+baseurl: ""
+timezone: 'America/lima'
+exclude: 
+    - README.md
+    - Gemfile
+    - Gemfile.lock
+    - CNAME
+    - .gitignore
+plugins:
+    - jekyll-feed
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-seo-tag
